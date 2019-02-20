@@ -1,5 +1,5 @@
 import java.util.*;
-public class terstenYaz{
+public class terstenyaz{
 
      public static void main(String []args){
         String yazi;
