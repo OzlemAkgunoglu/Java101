@@ -1,3 +1,7 @@
+/*Döngüler ve Java string sınıfının metodlarını kullanarak yazdığım program.
+Böylelikle string metodlarını ve döngüleri kullanmayı öğrenmiş oldum. 
+Kodda acemiliğimden dolayı olabilecek hatalar varsa bildirirseniz sevinirim.
+*/
 import java.util.*;
 public class palindrom
 {
@@ -5,7 +9,7 @@ public class palindrom
 		Scanner klavye=new Scanner(System.in);
 		String yazi, son, duz, son1;
 		int i, uzunluk, ayir, uzunlukson;
-		System.out.println("Palindromluk kontrolü için metni girin");
+		System.out.println("Palindromluk kontrolü icin metni girin");
 		yazi=klavye.nextLine();
 		uzunluk=yazi.length();
 		if (uzunluk%2==1)
