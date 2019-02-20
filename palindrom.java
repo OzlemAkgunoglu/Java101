@@ -7,7 +7,7 @@ public class palindrom
 {
 	public static void main(String[] args) {
 		Scanner klavye=new Scanner(System.in);
-		String yazi, son, duz, son1;
+		String yazi, son, ilk, son1;
 		int i, uzunluk, ayir, uzunlukson;
 		System.out.println("Palindromluk kontrolü icin metni girin");
 		yazi=klavye.nextLine();
@@ -21,7 +21,7 @@ public class palindrom
 		       ayir=uzunluk/2;
 		    }
 	    
-	    duz=yazi.substring(0,ayir);
+	    ilk=yazi.substring(0,ayir);
 	    son=yazi.substring(uzunluk-ayir,uzunluk);
 	    uzunlukson=son.length();
 	    son1=son.substring(uzunlukson-1);
@@ -29,7 +29,7 @@ public class palindrom
 	    {
 	        son1=son1+son.substring(i-1,i);
 	    }
-	    if(son1.equalsIgnoreCase(duz))
+	    if(son1.equalsIgnoreCase(ilk))
 	    {
 	        System.out.println("yazi palindromdur");
 	    }
