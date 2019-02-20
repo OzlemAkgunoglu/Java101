@@ -1,5 +1,5 @@
 import java.util.*;
-public class Palindrom
+public class palindrom
 {
 	public static void main(String[] args) {
 		Scanner klavye=new Scanner(System.in);
