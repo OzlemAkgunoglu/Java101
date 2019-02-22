@@ -1,4 +1,5 @@
-/*Girilen bir cümledeki boşluk sayısını bulan programın kodunu yazınız.
+/*Bir kitaptaki bölüm sonu problemlerini çözüyorum.Alternatif çzöümler bulursanız paylaşabilirsiniz
+Girilen bir cümledeki boşluk sayısını bulan programın kodunu yazınız.
 Örnek çıktı  ----   Bosluk sayisini bulmak istediğiniz cumleyi giriniz
 					Merhaba Dunya Burasi Github
 					Bu cumledeki boşluk sayısı: 3 */
